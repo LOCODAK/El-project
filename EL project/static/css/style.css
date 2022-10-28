@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
-body{
+body{                                                // CSS for body of the page
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	font-size: 15px;
@@ -12,11 +12,11 @@ body{
 	background-color: #1f2029;
 	overflow-x: hidden;
 }
-a {
+a {                                           //Anchor tag CSS
 	cursor: pointer;
   transition: all 200ms linear;
 }
-a:hover {
+a:hover {                                     // Hovering for anchor tag
 	text-decoration: none;
 }
 .link {
@@ -25,7 +25,7 @@ a:hover {
 .link:hover {
   color: #ffeba7;
 }
-p {
+p {                                 // Paragraph CSS
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
@@ -52,7 +52,7 @@ h6 span{
   left: -9999px;
 }
 .checkbox:checked + label,
-.checkbox:not(:checked) + label{
+.checkbox:not(:checked) + label{                    // CSS for Checkbox
   position: relative;
   display: block;
   text-align: center;
